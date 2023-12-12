@@ -1,0 +1,30 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.card{
+    width:360px;
+    height:600px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    align-items: center;
+}
+.card img{
+    height: 50%;
+    border-radius: 30px;
+}
+.card h2 {
+    padding-left: 10
+    px;
+    font-weight: bold;
+    font-size:1.5rem;
+}
+.card p{
+    font-size: 1rem;
+    font-weight: bold;
+}
